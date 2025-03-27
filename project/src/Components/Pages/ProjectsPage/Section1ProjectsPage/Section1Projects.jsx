@@ -25,7 +25,7 @@ const Section1Projects = () => {
 
                 {/* FirstlineCard2 */}
                 <div className='firstline-secondCard-section1'>
-                    <a href="https://galvao-dev-portfolio.onrender.com"> <div className='firstline-secondCard-img-container-section1'><img src={IMGperfil} alt="My image" /></div></a>
+                    <a href="https://galvao-dev-portfolio-pt.onrender.com"> <div className='firstline-secondCard-img-container-section1'><img src={IMGperfil} alt="My image" /></div></a>
                     <div className='firstline-secondCard-title'><h2> Meu Portfolio</h2> </div>
                 </div>
 
