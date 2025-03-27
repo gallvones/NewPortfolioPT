@@ -1,0 +1,174 @@
+
+.all {
+  display: flex;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+  
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 15px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+  margin-right: 80px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+
+.links2-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+
+
+.img-link {
+  height: 8vh;
+  width: 12vh;
+  overflow: hidden; /* Impede que a imagem ultrapasse os limites do container */
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+  align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.img-link > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.6);
+  transition: transform 0.2s ease-in-out;
+
+}
+.img-link:hover > img {
+  transform: scale(1.7);
+}
+
+.links{
+  font-size: 25px;
+}
+.links:hover {
+  color: white;
+}
+
+.logo2-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+ margin-left: 80px;
+}
+
+.logo3-container{
+display: none;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-left: 10px;
+
+}
+.burger{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.burger:hover{
+  color: white;
+  
+}
+.img3-link {
+  height: 8vh;
+  width: 14vh;
+  overflow: hidden; 
+  cursor: pointer;
+ 
+}
+
+.img3-link > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.4);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+
+}
+.img3-link:hover > img {
+  transform: scale(1.5);
+}
+
+.navMobileNone{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.navMobileON{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 1000px){
+  .logo2-container{display: none;}
+
+}
+
+@media (max-width: 768px){
+  .links-container{display: none;}
+  .links2-container{
+    display: flex;
+  }
+}
+
+@media (max-width: 650px){
+ .links2-container{
+display: none;
+ }
+  .logo-container{
+  display: none;
+ }
+  .logo3-container{
+    display: flex;
+   
+  }
+  .links{
+    font-size: 20px;
+  }
+  .navMobile{
+ display: flex;
+  }
+}
+

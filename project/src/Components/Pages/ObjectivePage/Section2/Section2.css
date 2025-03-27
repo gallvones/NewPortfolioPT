@@ -1,0 +1,438 @@
+.section2-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.section2-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+
+.cardsexp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 60px;
+}
+.more {
+    color: #bab8b7;
+    font-family: "Karla", sans-serif;
+}
+.cards-exp {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #bab8b7;
+    border-radius: 10%;
+    width: 200px;
+    height: 300px;
+    min-width: 200px;
+    min-height: 300px;
+}
+.section2Card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 20px;
+    color: white;
+    font-size: 14.5px;
+    font-family: "Karla", sans-serif;
+}
+
+.section2-iconCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section2-iconCard   > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bab8b7;
+    font-size: 22px;
+    font-family: "Karla", sans-serif;
+    height: 10px;
+  
+    
+}
+
+/* First Card */
+.firstCard-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    gap: 15px;
+    position:static;
+}
+.firstCard-icons > .react {
+    color: #bab8b7;
+    cursor: pointer;
+  
+}
+.firstCard-icons > .react:hover {
+    color: #61dafb;
+    
+  
+}
+
+.firstCard-icons > .node {
+    color: #bab8b7;
+    cursor: pointer;
+}
+.firstCard-icons > .node:hover {
+    color: #339933;
+    
+}
+
+.firstCard-icons > .mongodb {
+    color: #bab8b7;
+    cursor: pointer;
+    }
+.firstCard-icons > .mongodb:hover {
+color: #47A248;
+
+}
+
+
+/* Second Card */
+.secondCard-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    gap: 15px;
+}
+
+.secondCard-firstline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.secondCard-firstline-icons > .react {
+    color: #bab8b7;
+    cursor: pointer;
+}
+.secondCard-firstline-icons > .react :hover{
+    color: #61dafb;
+    
+}
+.secondCard-firstline-icons > .vite {
+    color: #bab8b7;
+    cursor: pointer;
+}
+.secondCard-firstline-icons > .vite:hover {
+    color: #646CFF;
+    cursor: pointer;
+}
+
+.secondCard-icons > .tailwind{
+    color: #bab8b7;
+    cursor: pointer;
+    }
+.secondCard-icons > .tailwind:hover{
+color: #38BDF8;
+
+}
+.secondCard-icons > .bootstrap{
+    color: #bab8b7;
+    cursor: pointer;
+}
+.secondCard-icons > .bootstrap:hover{
+color: #7952B3;
+cursor: pointer;
+}
+
+/* Third Card */
+.thirdCard-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    gap: 15px;
+}
+
+.thirdCard-firstline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.thirdCard-firstline-icons > .node {
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-firstline-icons > .node:hover {
+    color: #339933;
+    
+}
+.thirdCard-firstline-icons > p {
+    font-size: 22px;
+    color: #bab8b7;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+    
+}
+.thirdCard-firstline-icons > p:hover {
+    color: white;
+    
+}
+
+
+.thirdCard-secondline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+.thirdCard-secondline-icons > .jest {
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-secondline-icons > .jest:hover {
+    color: #C21325;
+    
+}
+.thirdCard-secondline-icons > p {
+    font-size: 22px;
+    color: #ababab;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+}
+.thirdCard-secondline-icons > p:hover {
+    color: #5C3B8F;
+}
+
+.thirdCard-thirdline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+    margin-top: 7px;
+}
+.thirdCard-thirdline-icons > .docker {
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .docker:hover {
+    color: #2496ED;
+    
+}
+.thirdCard-thirdline-icons > .jwt {
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .jwt:hover {
+    color: #D63AFF;
+    
+}
+.thirdCard-thirdline-icons > .mongoose {
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .mongoose:hover {
+    color: #47A248;
+    
+}
+.thirdCard-thirdline-icons > .git {
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .git:hover {
+    color:#F05032;
+    
+}
+
+/* FourdLine */
+.fourdCard-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    gap: 15px;
+}
+.fourdCard-firstline-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fourdCard-firstline-icons > .trello {
+    color: #ababab;
+    cursor: pointer;
+    }
+.fourdCard-firstline-icons > .trello:hover {
+    color: #0079BF;
+   
+    }
+
+
+.fourdCard-firstline-icons > .github {
+ color: #bab8b7;
+ cursor: pointer;
+}
+.fourdCard-firstline-icons > .github:hover {
+    color: white;
+    
+   }
+
+   .fourdCard-firstline-icons > .vscode{
+    color: #ababab;
+    cursor: pointer;
+    }
+.fourdCard-firstline-icons > .vscode:hover{
+color: #007ACC;
+cursor: pointer;
+}
+.fourdCard-firstline-icons > p {
+    color: #ababab;
+    padding: 2px;
+    font-size: 1.5rem;
+    border: solid 1px #ababab;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fourdCard-firstline-icons > p:hover{
+    color:#438cd5;
+    border-color: #438cd5;
+}
+
+.fourdCard-secondline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+    margin-top: 10px;
+}
+.fourdCard-secondline-icons > .figma{
+    color: #ababab;
+    cursor: pointer;
+}
+.fourdCard-secondline-icons > .figma:hover{
+    color: #F24E1E;
+    
+}
+
+.fourdCard-secondline-icons > .canva {
+    color: #ababab;
+    cursor: pointer;
+}
+.fourdCard-secondline-icons > .canva:hover {
+    color: #00C4CC;
+    
+}
+
+.fourdCard-secondline-icons > .postman {
+    color: #ababab;
+    cursor: pointer;
+}
+.fourdCard-secondline-icons > .postman:hover {
+    color: #FF6C37;
+    
+}
+.fourdCard-secondline-icons > .notion {
+    color: #ababab;
+    cursor: pointer;
+}
+.fourdCard-secondline-icons > .notion:hover {
+    color: #5849BE;
+    
+}
+.fourdCard-thirdline-icons > p{
+    cursor: pointer;
+    border: solid 1px #bab8b7;
+    border-radius: 15px;
+    padding: 4px;
+    color: #bab8b7;
+    font-family: "Karla", sans-serif;
+}
+.fourdCard-thirdline-icons > p:hover{
+    background-color: #E04F16;
+    color: rgb(25, 25, 46);
+    
+}
+.fourdCard-thirdline-icons :hover{
+    background-color: #2B579A;
+    color: rgb(205, 205, 205);
+    border-color: rgb(25, 25, 46);
+}
+
+
+@media (max-width: 1000px){
+    .cards-exp{
+        width: 150px;
+        height: 220px;
+        min-width: 150px;
+        min-height: 220px;
+    }
+   .section2Card-title{
+    font-size: 10px;
+   }
+   .section2-iconCard > h2{
+    font-size: 15px;
+    margin-top: -10px;
+    
+   }
+   .firstCard-icons{
+    margin-top: 10px;
+    font-size: 2.2rem;
+   }
+ .secondCard-icons{
+    margin-top: 10px;
+    font-size: 2.2rem;
+    gap: 10px   ;
+ }
+ .thirdCard-icons{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    
+ }
+ .thirdCard-firstline-icons > p {
+    font-size: 17px;
+ }
+ .thirdCard-secondline-icons > p {
+    font-size: 17px;
+ }
+
+ .fourdCard-icons{
+    margin-top: 10px;
+    font-size: 1.6rem;
+ }
+   .fourdCard-firstline-icons > p {
+    font-size: 1.2rem;
+
+   }
+   .fourdCard-thirdline-icons  > p {
+        font-size: 1.2rem;
+   }
+}
+
+@media (max-width: 850px) {
+.cardsexp-container{
+    gap: 30px ;
+}
+}
+
+@media (max-width: 768px) {
+    .cardsexp-container{
+        flex-wrap: wrap;
+    }
+}

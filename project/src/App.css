@@ -1,0 +1,27 @@
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+hr{
+    margin-top: 70px;
+    height: 3px;
+    background-color:  #bab8b7;
+    border: 1px;
+}
+.header-home{
+    background-color:  #bab8b7;
+    color: rgb(25, 25, 46);
+    
+     
+}
+.body-home{
+    background-color: rgb(25, 25, 46);
+    
+    
+}
+.footer-home {
+    background-color: #bab8b7;
+    color: rgb(25, 25, 46);
+}

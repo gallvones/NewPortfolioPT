@@ -1,0 +1,110 @@
+.all-section1-Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+}
+
+
+
+.galvaoimage-container-Contact {
+    max-width: 380px; 
+    max-height: 380px;
+    min-width: 400px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #bab8b7;
+    margin-top: 50px;
+}
+
+.galvaoimage-container-Contact > img {
+    width: 120%;
+}
+
+.about-me-Contact{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-Contact > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 2rem;
+}
+.about-me-Contact > p{
+    color: white;
+    font-size: 1rem
+}
+.socialMedia-icons-container-Contact{
+    margin-top: 10px;
+    
+}
+.icons-Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 1.6rem;
+   gap: 8px;
+}
+.icons-Contact > a > .zap-Contact{
+    color: #bab8b7;
+   }
+.icons-Contact > a > .zap-Contact:hover{
+ color: #25D366;
+}
+.icons-Contact > a > .linkedin-Contact{
+    color: #bab8b7;
+}
+.icons-Contact > a > .linkedin-Contact:hover{
+    color: #0A66C2;
+}
+@media (max-width: 650px){
+  .galvaoimage-container-Contact{
+    margin-top: 30px;
+    max-width: 300px; 
+    max-height: 300px;
+    min-width: 320px;
+    min-height: 320px;
+  }
+.about-me-Contact{
+    min-width: 350px;
+    max-width: 350px;
+}
+.about-me-Contact > h1 {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+.about-me-Contact > p {
+    font-size: 0.9rem;
+    
+}
+.icons-Contact{
+    font-size: 1.4rem;
+}
+}
+
+@media(max-width: 450px){
+    .galvaoimage-container-Contact{
+        margin-top: 30px;
+        min-width: 320px;
+        min-height: 320px;
+      }
+    .about-me-Contact{
+        min-width: 320px;
+        max-width: 320px;
+    }
+    .icons-Contact{
+        font-size: 1.3rem;
+    }
+}

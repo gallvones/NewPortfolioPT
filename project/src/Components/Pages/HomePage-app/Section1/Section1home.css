@@ -1,0 +1,80 @@
+
+
+.all-section-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 60px ;
+}
+
+
+
+.galvaoimage-container {
+    max-width: 380px; 
+    max-height: 380px;
+    min-width: 400px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #bab8b7;
+    margin-top: 50px;
+}
+
+.galvaoimage-container > img {
+    width: 120%;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    color: white;
+}
+.about-me > h1{
+    color: white;
+    font-size: 32px;
+    font-family: "Karla", sans-serif;
+
+}
+
+.about-me-text{
+    height: 150px;
+    width: 350px;
+    
+}
+.about-me-text > p {
+    font-family: "Karla", sans-serif;
+}
+
+
+@media (max-width: 1000px){
+    .all-section-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        margin-top: -40px;
+    }
+    .about-me > h1 {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+}
+
+@media (max-width: 750px){
+    .galvaoimage-container{
+        max-width: 300px; 
+    max-height: 300px;
+    min-width: 320px;
+    min-height: 320px;
+    }
+}

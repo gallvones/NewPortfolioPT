@@ -1,0 +1,295 @@
+
+.Projects-section1-container{
+display: flex;
+flex-direction: column;
+
+}
+.title-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
+}
+
+.section1-text1{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+color: #bab8b7;
+font-family: "Karla", sans-serif;
+}
+.firstlineCards-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px   ;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+
+
+/* Firstline-firstCard */
+.firstline-firstCard-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.firstline-firstCard-img-container-section1{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 230px;
+    min-height: 230px;
+    overflow: hidden;
+    border: 4px solid #bab8b7;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstline-firstCard-img-container-section1 > img{
+width: 170%;
+
+
+}
+.firstline-firstCard-title > h2 {
+margin-top: 10px;
+color: white;
+}
+
+/* Firstline-secondCard */
+.firstline-secondCard-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.firstline-secondCard-img-container-section1{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 230px;
+    min-height: 230px;
+    overflow: hidden;
+    border: 4px solid #bab8b7;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstline-secondCard-img-container-section1> img{
+width: 170%;
+}
+.firstline-secondCard-title > h2 {
+margin-top: 10px;
+color: white;
+}
+
+/* Firstline-thirdCard */
+.firstlinethirdCard-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.firstline-thirdCard-img-container-section1{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 230px;
+    min-height: 230px;
+    overflow: hidden;
+    border: 4px solid #bab8b7;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstline-thirdCard-img-container-section1> img{
+width: 140%;
+margin-top: 15px;
+}
+.firstline-thirdCard-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstline-thirdCard-title > h2 {
+margin-top: 10px;
+color: white;
+}
+
+/* SecondLine of cards */
+.secondlineCards-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px   ;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+
+.secondline-firstCard-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondline-firstCard-img-container-section1{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 230px;
+    min-height: 230px;
+    overflow: hidden;
+    border: 4px solid #bab8b7;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondline-firstCard-img-container-section1> img{
+    width: 195%;
+    
+    }
+    .secondline-firstdCard-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondline-firstCard-title > h2 {
+    margin-top: 10px;
+    color: white;
+    }
+
+    /* Secondline - Card2 */
+
+    .secondline-secondCard-section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .secondline-secondCard-img-container-section1{
+        max-width: 250px;
+        min-width: 250px;
+        max-height: 230px;
+        min-height: 230px;
+        overflow: hidden;
+        border: 4px solid #bab8b7;
+        border-radius: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .secondline-secondCard-img-container-section1> img{
+        width: 195%;
+        
+        }
+        .secondline-secondCard-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .secondline-secondCard-title > h2 {
+        margin-top: 10px;
+        color: white;
+        }
+
+
+@media (max-width: 1000px) {
+    .firstlineCards-section1{
+        margin-top: 50px;
+    }
+    
+    .firstline-firstCard-img-container-section1{
+        max-width: 210px;
+    min-width: 210px;
+    max-height: 190px;
+    min-height: 190px;
+    }
+    .firstline-firstCard-title > h2{
+        font-size: 20px;
+    }
+
+    .firstline-secondCard-img-container-section1{
+        max-width: 210px;
+    min-width: 210px;
+    max-height: 190px;
+    min-height: 190px;
+    }
+    .firstline-secondCard-title > h2 {
+        font-size: 20px;
+    }
+
+    .firstline-thirdCard-img-container-section1{
+        max-width: 210px;
+    min-width: 210px;
+    max-height: 190px;
+    min-height: 190px;
+    }
+    .firstline-thirdCard-title > h2{
+        font-size: 20px;
+    }
+
+/* Second Line of Cards */
+
+.secondline-firstCard-img-container-section1{
+    max-width: 210px;
+    min-width: 210px;
+    max-height: 190px;
+    min-height: 190px;
+}
+.secondline-firstCard-title > h2 {
+    font-size: 20px;
+}
+
+.secondline-secondCard-img-container-section1{
+    max-width: 210px;
+    min-width: 210px;
+    max-height: 190px;
+    min-height: 190px;
+}
+.secondline-secondCard-title > h2{
+    font-size: 20px;
+}
+}
+
+@media (max-width: 850px ){
+   .title-section1{
+    margin-top: 40px;
+    margin-left: 10px;
+   }
+    .firstlineCards-section1{
+flex-wrap: wrap;
+gap: 50px ;
+
+    }
+}
+
+@media (max-width: 650px){
+.section1-text1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.secondlineCards-section1{
+    flex-wrap: wrap;
+}
+}
+       
+    

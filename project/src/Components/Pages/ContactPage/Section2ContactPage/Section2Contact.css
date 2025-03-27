@@ -1,0 +1,152 @@
+.all-section2-Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 80vh;
+    
+    
+}
+
+.form-container {
+    border: solid 2px #bab8b7;
+    border-radius: 30px;
+    height: 480px;
+    width: 350px;
+    margin-top: -100px;
+    
+}
+.form-container > .form {
+    margin: 20px;
+    margin-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    appearance: none;
+    outline: none;
+    border: solid 2px rgb(24, 25, 46);
+    font-size: 1rem; 
+    border-radius: 20px;
+    padding: 10px; 
+    height: 45px; 
+    width: 300px;
+    box-sizing: border-box; 
+    font-family: "Karla", sans-serif;
+}
+
+input::placeholder {
+    font-size: 0.8rem; 
+    color: grey ;
+    font-family: "Karla", sans-serif;
+}
+
+.fourdline {
+    appearance: none;
+    outline: none;
+    border: solid 2px rgb(24, 25, 46);
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 10px;
+    height: 120px;
+    width: 300px;
+    box-sizing: border-box;
+    resize: none;
+    font-family: inherit;
+    line-height: 1.5;
+    overflow-y: auto;
+    font-family: "Karla", sans-serif;
+}
+
+.fourdline::-webkit-scrollbar {
+    width: 8px; /* Largura reduzida da scrollbar */
+}
+
+.fourdline::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px; 
+    
+}
+
+.fourdline::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.fourdline::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.fourdline::placeholder {
+    font-size: 1rem;
+    color: grey;
+    top: 10px; 
+    left: 10px; 
+}
+
+.btn   {
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(24, 25, 46);
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Karla", sans-serif;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(24, 25, 46);
+    font-family: "Karla", sans-serif;
+}
+
+@media (max-width: 550px){
+    .form-container{
+        height: 400px;
+    width: 320px;
+    }
+input {
+    height: 40px;
+    width: 270px;
+}
+
+.fourdline{
+   height: 110px;
+   width: 270px;
+}
+.btn{
+    font-size: 0.6rem;
+    margin-top: -10px;
+}
+}
+
+@media (max-width: 400px){
+    .form-container{
+        height: 380px;
+    width: 260px;
+    }
+input {
+    height: 40px;
+    width: 220px;
+}
+
+.fourdline{
+   height: 100px;
+   width: 220px;
+}
+.btn{
+    font-size: 0.6rem;
+    margin-top: -10px;
+}
+
+}

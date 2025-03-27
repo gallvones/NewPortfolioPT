@@ -1,0 +1,50 @@
+.footer-container{
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    height: 10vh;
+    gap: 3px;
+}
+.footer-container >p {
+    margin-top: 36.6px;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+.copyright {
+    font-size: 0.6rem;
+    margin-left: -2px;
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+
+}
+
+@media (max-width: 1000px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .footer-container >p {
+        margin-top: 5px;
+        
+    }
+}
+
+@media(max-width: 850px ){
+    .footer-container > p {
+   font-size: 12px;
+    }
+}
+
+@media (max-width: 500px){
+    .footer-container{
+        margin-left: 10px;
+       margin-right: 10px;
+    }
+    .footer-container > p {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+}
