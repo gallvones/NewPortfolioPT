@@ -41,8 +41,8 @@ const Section2Home = () => {
   <div className='card-exp-bc-thirdCard-title1'>
     <h1>Hard Skills</h1>
     <div className='card-exp-bc-thirdCard-text1'>
-    <p>- React </p>
-        <p>- Node</p>
+    <p>- React || Node</p>
+        <p>- Python || Zope</p>
         <p>- MongoDB || SQL</p>
         <p>- APIs RESTfull</p>
       

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Section1/Section1home.css';
-import myImage from '../../../../assets/img/perfil.jpg';
+import myImage from '../../../../assets/img/perfil3.jpg';
 import Section1Icons from './Section1Icons/Section1Icons'
 
 const Section1home = () => {
@@ -13,7 +13,7 @@ const Section1home = () => {
       <h1> Sobre Mim</h1> 
       <br />
       <div className='about-me-text '><p> 
-      Olá, Mundo! Meu nome é Luiz Galvão, sou um Desenvolvedor Fullstack com graduação em Análise e Desenvolvimento de Sistemas. Com dois anos de experiência, desenvolvi sistemas completos e contribuí para projetos inovadores. Minha expertise inclui React.js, Node.js, MongoDB e soluções em Cloud.
+      Olá, Mundo! Meu nome é Luiz Galvão, sou um Desenvolvedor Fullstack com graduação em Análise e Desenvolvimento de Sistemas. Com dois anos de experiência, desenvolvi sistemas completos e contribuí para projetos inovadores. Minha expertise inclui React.js, Node.js, MongoDB e soluções Cloud.
         </p>
         </div>
          <div className='SocialMedia-icons-homepage'>

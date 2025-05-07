@@ -3,7 +3,7 @@ import '../Section1Icons/Section1Icons.css'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube,IoIosCloudDownload } from "react-icons/io";
-import CV from '../../../../../assets/Docs/CV-BR-LG.pdf';
+import CV from '../../../../../assets/Docs/CV-BR1.pdf';
 const Section1Icons = () => {
   return (
     <div className='all-container'>
