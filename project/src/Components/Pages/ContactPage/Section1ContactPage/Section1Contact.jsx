@@ -11,7 +11,7 @@ const Section1Contact = () => {
         <div className='about-me-Contact'>
       <h1> Contate-me!</h1> 
       <br />
-      <p>- Este formulário foi criado para coletar suas informações e enviá-las ao meu banco de dados pessoal (MongoDB Atlas)</p> 
+      <p>- Este formulário foi criado para coletar suas informações e enviá-las ao meu banco de dados pessoal (MongoDB Atlas).</p> 
         <p>Se preferir, você também pode entrar em contato pelo meu WhatsApp pessoal ou LinkedIn.</p>
          <div className='socialMedia-icons-container-Contact'>
          <div className='icons-Contact'>

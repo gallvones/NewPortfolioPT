@@ -14,6 +14,19 @@
     font-family: "Karla", sans-serif;
 }
 
+.section2-title2-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-title2{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+
 .cardsexp-container{
     display: flex;
     align-items: center;

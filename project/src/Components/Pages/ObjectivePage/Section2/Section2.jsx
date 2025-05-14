@@ -46,6 +46,9 @@ const more = '+'
       <div className='section2-title'>
         <h1>Tecnologias</h1>
       </div>
+      <div className='section2-title2-container'>
+      <h3 className='section2-title2'>Hover nos cards!</h3>
+      </div>
 
        {/* First Card */}
       <div className='cardsexp-container'>

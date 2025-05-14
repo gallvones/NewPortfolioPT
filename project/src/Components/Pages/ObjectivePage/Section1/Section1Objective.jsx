@@ -18,7 +18,7 @@ const Section1objective = () => {
 <br />
 <p> Familiarizado com Git para controle de versão, Trello para organização, Figma para prototipagem e Postman para testes de API. </p>
 <br />
-<p>Estou procurando uma vaga de Desenvolvedor FullStack Júnior.</p>
+<p>Procuro um cargo de Desenvolvedor FullStack.</p>
             <br />
             <div className='SocialMedia-icons'>
                 <Section1Icons/>
