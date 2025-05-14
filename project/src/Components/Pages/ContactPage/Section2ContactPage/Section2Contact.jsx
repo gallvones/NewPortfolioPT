@@ -25,7 +25,7 @@ const Section2Contact = () => {
 
         try {
             // Send datas to the backend
-            const response = await fetch('https://galvao-dev-portfolio.onrender.com', {
+            const response = await fetch('https://galvao-dev-portfolio-pt.onrender.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData), // datas to json
