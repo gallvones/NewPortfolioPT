@@ -12,54 +12,7 @@ const Section2Home = () => {
       <div className='section2home-title'><h1>Experiências</h1></div>
         <div className='card-exp-container'>
 
-{/* Card1-container-BC*/}
-<div className='card-exp-bc-container'>
-<div className='card-exp-bc-firstCard'>
-  <div className='card-exp-bc-firstCard-image'>
-    <img src={BC} alt="bc-logo" />
-  </div>
 
-</div>
-
-<div className='arrow'><FaLongArrowAltRight /></div>
-
-{/* Card2-container-BC */}
-<div className='card-exp-bc-second'>
-  <div className='card-exp-bc-secondCard-title'>
-    <h1>Blue Code </h1>
-    <h1> Systems </h1>
-    <div className='card-exp-bc-secondCard-text'>
-    <p className='card-exb-bc-secondCard-text-firstP'>Estágio em Desenvolvimento Fullstack  (Julho 2024 - Dezembro 2024).</p>
-<p className='card-exb-bc-secondCard-text-secondP'> Trabalhei no desenvolvimento de aplicações Fullstack, colaborando com uma equipe ágil composta por devs juniors, plenos e seniors, Scrum Master e outros profissionais.</p>
-    </div>
-  </div>
-</div>
-<div className='arrow'><FaLongArrowAltRight /></div>
-
-{/* Card3-container-BC */}
-<div className='card-exp-bc-third'>
-  <div className='card-exp-bc-thirdCard-title1'>
-    <h1>Hard Skills</h1>
-    <div className='card-exp-bc-thirdCard-text1'>
-    <p>- React || Node</p>
-        <p>- Python || Zope</p>
-        <p>- MongoDB || SQL</p>
-        <p>- APIs RESTfull</p>
-      
-        <div className='card-exp-bc-thirdCard-title2'>
-          <h1> Soft Skills</h1>
-         <div className='card-exp-bc-thirdCard-text2'>
-         <p>- Comunicação</p>
-        <p>- Solução de Problemas</p>
-        <p>- Gestão de tempo</p>
-        <p>- Adaptabilidade</p>
-        <p>- Trabalho em equipe</p>
-         </div>
-        </div>
-    </div>
-  </div>
-</div>
-</div>
 {/* Card1 Container Nordic Store */}
 <div className='card-exp-nd-container'>
 <div className='card-exp-nd-firstCard'>
