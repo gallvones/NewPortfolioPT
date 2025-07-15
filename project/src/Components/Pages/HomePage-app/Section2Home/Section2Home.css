@@ -10,6 +10,14 @@
     color: white;
     font-family: "Karla", sans-serif;
 }
+.link-nordic{
+    cursor: pointer;
+    color: white;
+}
+.link-nordic:hover {
+    color: rgba(138, 194, 207, 1);
+    
+}
 .arrow{
     color: #bab8b7;
     font-size: 25px;

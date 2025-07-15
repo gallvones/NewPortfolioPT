@@ -33,7 +33,7 @@ const Section2Home = () => {
 Desenvolvi uma aplicação FullStack para um cliente como freelancer.</p>
 <p className='card-exp-nd-secondCard-secondP'>
 O sistema é um e-commerce de roupas criado inteiramente por mim. Ele integra o front-end com o back-end e usa um banco de dados na nuvem. </p>
-<p className='card-exp-nd-secondCard-thirdP'>O projeto ainda está em produção. Acompanhe as atualizações!</p>
+<p className='card-exp-nd-secondCard-thirdP'>O projeto ainda está em produção. Acompanhe as atualizações: <a href="https://nordic-store.onrender.com" target='blank'> <span className='link-nordic'>https://nordic-store.onrender.com </span></a></p>
     </div>
   </div>
 </div>
