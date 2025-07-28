@@ -16,7 +16,7 @@ const Section1Icons = () => {
     <div className='icons'>
     <a href="https://github.com/gallvones" target='blank'><FaGithub  className='githubHome'/></a>
     <a href='https://www.linkedin.com/in/luiz-galvão-64057a251' target='blank'> <FaLinkedin  className='linkedin' /></a>
-        <a href="https://www.youtube.com/channel/UCavP3eMFC-tsw2UV4Kh_SuA" target='blank'><IoLogoYoutube className='youtube' /></a>
+        <a href="https://www.youtube.com/channel/UCwVz0LhZByYnWzFlh-SHxew" target='blank'><IoLogoYoutube className='youtube' /></a>
         </div>
         
         </div>
